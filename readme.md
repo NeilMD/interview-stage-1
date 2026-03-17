@@ -50,7 +50,7 @@ node main.js
 ## Usage
 
 ```javascript
-const generateData = new GenerateData(10000);
+const generateData = new GenerateData(LIST_SIZE);
 const arrResult = generateData.generateList();
 
 const arrayAdapter = new ArrayAdapter();
