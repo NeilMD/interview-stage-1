@@ -42,4 +42,6 @@ const consoleOutput = new ConsoleOutput();
 const listReportGenerator = new ListReportGenerator(
   arrayAdapter.standardize(arrResult),
 );
+
+// Use consoleOutput as the way to output the report
 listReportGenerator.output(consoleOutput);
