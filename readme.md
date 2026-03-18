@@ -98,6 +98,23 @@ const htmlOutput = new HtmlOutput();
 
 ---
 
+## Unit Testing
+
+The project includes a lightweight unit test (UT01.js) to validate the core functionality of the data generation logic.
+
+### Test Coverage
+
+- Test 001 – Uniqueness Validation
+- Test 002 – Length Validation
+
+### Running the Tests
+
+```javascript
+node UT01.js
+```
+
+---
+
 ## Author
 
 **Neil Capistrano**  

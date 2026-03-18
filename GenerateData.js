@@ -28,6 +28,9 @@ class GenerateData {
   }
 
   generateList() {
+    // Clear arrResult
+    this.arrResult = [];
+
     for (let x = 0; x < this.size; x++) {
       // Generate Random Number, used the length of the unused array
       let randomIndex = this.generateRandomNumber(this.size - x);
